@@ -320,7 +320,7 @@ a{
 } */
 
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 410px) and (min-width: 360px) {
   .nav-item, .nav-item-active{
     font-size: 10px;
   }
