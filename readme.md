@@ -15,4 +15,4 @@ it's take near about 7 to 8  Hour to complete(with media query).
 
 ## Deployed link
 
-[Company landing Page](https://product-landing-pagee.netlify.app/)
+[Company landing Page](https://company-landingpage-mq.netlify.app/)
