@@ -320,11 +320,13 @@ a{
 } */
 
 
-@media screen and (max-width: 410px) and (min-width: 360px) {
+@media screen and (max-width: 412px) /*and (min-width: 360px) */{
   .nav-item, .nav-item-active{
     font-size: 10px;
   }
-
+  nav{
+    margin-right: 0px;
+  }
   svg.nav-item{
     display: none;
   }
@@ -418,6 +420,139 @@ a{
     padding-top: 30px;
     color: black;
     font-size: 15px;
+    font-weight: 400;
+  }
+
+  .download-section{
+    scale: 0.7;
+    margin-left: 10px;
+  }
+  .download-content{
+   display: none;
+  }
+
+  .footer-logo{
+    display: none;
+  }
+
+  .footer-left .list-items{
+    font-size: 15px;
+    display: block;
+    line-height: 0.5;
+  }
+  .footer-right .list-items{
+    display: block;
+    font-size: 15px;
+    line-height: 0.5;
+  }
+  .footer-right .footer-logos{
+    margin-left: 5px;
+  }
+}
+
+
+@media screen and (max-width: 760px) and (min-width: 412px) {
+  .nav-item, .nav-item-active{
+    font-size: 10px;
+  }
+
+  svg.nav-item{
+    display: none;
+  }
+
+  img.logo{
+    width: 30px;
+    margin: 0px;
+    margin-left: 10px;
+    align-self: center;
+  }
+  header{
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0.452);
+  }
+  .header-text img {
+    width: 20px;
+  }
+  .header-text{
+    margin-left: 10px;
+  }
+  .header-text h2{
+    font-size: 25px;
+  }
+  .company-items{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .header-image{
+    display: none;
+  }
+
+  .api-heading{
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .card , .card-active{
+    scale: 0.7;
+    width: 150px;
+    margin-right: 10px;
+    height: 285px;
+  }
+
+  .cards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .blog-heading{
+    margin-left: 10px;
+  }
+
+  .blog-heading h1{
+    font-size: 25px;
+  }
+
+  .blog-heading h5{
+    font-size: 10px;
+    margin-bottom: -20px;
+  }
+
+  .blog-cards{
+    display: block;
+    margin-top: -110px;
+    margin-left: -70px;
+    scale: 0.5;
+  }
+
+  .blog-card{
+    margin-top: 20px;
+  }
+
+  .faq-section{
+    display: block;
+    margin-top: -50px;
+    background-color: rgba(110, 208, 175);
+  }
+  .faq-image{
+    display: none;
+  }
+  .faq-content{
+    margin-left: 10px;
+  }
+  .faq-content h2{
+    font-size: 25px;
+  }
+  .faq-content h4{
+    padding-top: 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
   }
 
   .download-section{
